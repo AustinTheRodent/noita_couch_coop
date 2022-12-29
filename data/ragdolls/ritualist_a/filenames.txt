@@ -1,0 +1,10 @@
+data/ragdolls/ritualist_a/torso.png
+data/ragdolls/ritualist_a/head.png
+data/ragdolls/ritualist_a/right_arm.png
+data/ragdolls/ritualist_a/right_hand.png
+data/ragdolls/ritualist_a/left_arm.png
+data/ragdolls/ritualist_a/left_hand.png
+data/ragdolls/ritualist_a/right_leg.png
+data/ragdolls/ritualist_a/right_foot.png
+data/ragdolls/ritualist_a/left_leg.png
+data/ragdolls/ritualist_a/left_foot.png

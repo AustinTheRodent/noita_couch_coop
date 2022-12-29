@@ -1,0 +1,56 @@
+<Entity tags="hittable,mortal,polymorphable_NOT">
+	<HitboxComponent 
+		aabb_min_x="-3.5" 
+		aabb_max_x="3.5" 
+		aabb_min_y="-9.5" 
+		aabb_max_y="9.5" >
+	</HitboxComponent>
+
+	<!-- Adding Crit! -->
+	<AnimalAIComponent/>
+	<SpriteAnimatorComponent/>
+
+<DamageModelComponent
+	air_needed="1" 
+	falling_damages="0"
+	fire_damage_amount="0.5" 
+	fire_probability_of_ignition="1" 
+	hp="0.8" 
+	materials_damage="1" 
+		materials_that_damage="acid,lava,poison,blood_cold,blood_cold_vapour,radioactive_gas,radioactive_gas_static,rock_static_radioactive,rock_static_poison,ice_radioactive_static,ice_radioactive_glass,ice_acid_static,ice_acid_glass,rock_static_cursed,poo_gas" 
+		materials_how_much_damage="0.004,0.004,0.001,0.0008,0.0007,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.001,0.005,0.00001"
+	blood_material="blood"
+	blood_multiplier="0.3"
+	physics_objects_damage="1"
+	ragdoll_filenames_file="data/ragdolls/ritualist_a/filenames.txt" 
+	ragdoll_material="meat"
+	create_ragdoll="1"
+	>
+</DamageModelComponent>
+
+  <SpriteComponent 
+    _enabled="1" 
+    additive="0" 
+    emissive="0" 
+    has_special_scale="0" 
+    image_file="data/enemies_gfx/ritualist_a.xml"
+    is_text_sprite="0" 
+    kill_entity_after_finished="0" 
+    rect_animation="dance" 
+    smooth_filtering="0" 
+    transform_offset.x="0" 
+    transform_offset.y="0" 
+    ui_is_parent="0" 
+    update_transform="1" 
+    update_transform_rotation="1" 
+    visible="1" 
+		offset_x="0" 
+		offset_y="0" 
+     >
+
+  </SpriteComponent>
+	<AudioComponent
+		file="data/audio/Desktop/animals.bank"
+		event_root="animals/scavenger" >
+	</AudioComponent>
+</Entity>
